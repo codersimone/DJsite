@@ -1,1369 +1,1873 @@
 body {
-    padding: 0;
+    /* Блочная модель */
     margin: 0;
-    /* типографика */
+    padding: 0;
+
+    /* Типографика */
     font-family: 'Poppins', sans-serif;
+
+    /* Оформление */
     background: #1C1B21;
 }
 
 ul,
 li {
+    /* Блочная модель */
     display: block;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .header {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1C1B21 92.19%), url('../images/mainpic.png') no-repeat center top;
+    /* Позиционирование */
+    top: 0px;
+    left: 0px;
+
+    /* Блочная модель */
     width: 1920px;
     height: 1000px;
-    left: 0px;
-    top: 0px;
+
+    /* Оформление */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1C1B21 92.19%), url('../images/mainpic.png') no-repeat center top;
 }
 
 header a {
+    /* Типографика */
     color: #FFF;
 }
 
 .headerlogo1 {
+    /* Позиционирование */
     position: absolute;
-    left: 500px;
     top: 30px;
+    left: 500px;
 }
 
 .headerlogo2 {
+    /* Позиционирование */
     position: absolute;
-    left: 580px;
     top: 42px;
+    left: 580px;
 }
 
 .menu {
-    display: flex;
+    /* Позиционирование */
     position: absolute;
+    top: 42px;
+    left: 788px;
+
+    /* Блочная модель */
+    display: flex;
     width: 632px;
     height: 27px;
-    left: 788px;
-    top: 42px;
+}
+
+ul .menu:link {
+    /* Типографика */
+    color: #7A66CC;
 }
 
 .menu li a {
-    text-decoration: none;
-    font-weight: 600;
+    /* Типографика */
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .menu li {
+    /* Блочная модель */
     margin-right: 56px;
 }
 
 p {
+    /* Позиционирование */
     position: absolute;
-    margin-top: -1px;
+    top: 412px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 270px;
     height: 72px;
-    left: 405px;
-    top: 412px;
+    margin-top: -1px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    font-weight: 700;
     color: #FFF;
 }
 
 #textContainer .outline {
+    /* Позиционирование */
     position: absolute;
-    margin-top: -1px;
+    top: 494px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 655px;
     height: 150px;
-    left: 405px;
-    top: 494px;
+    margin-top: -1px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 100px;
     line-height: 150px;
+    font-weight: 700;
     white-space: nowrap;
-    color: #FFF;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFF;
     color: transparent;
 }
 
 .play {
+    /* Позиционирование */
     position: absolute;
-    left: 408px;
     top: 696px;
+    left: 408px;
 }
 
 .line1 {
+    /* Позиционирование */
     position: absolute;
-    width: 887px;
-    left: 472px;
     top: 697px;
+    left: 472px;
+
+    /* Блочная модель */
+    width: 887px;
+
+    /* Оформление */
     border: 2px solid #FFF;
 }
 
 .line2 {
+    /* Позиционирование */
     position: absolute;
-    width: 70px;
-    left: 472px;
     top: 697px;
+    left: 472px;
+
+    /* Блочная модель */
+    width: 70px;
+
+    /* Оформление */
     border: 2px solid #7A66CC;
 }
 
 .line3 {
-
+    /* Позиционирование */
     position: absolute;
-    width: 20px;
-    left: 532px;
     top: 697px;
+    left: 532px;
+
+    /* Блочная модель */
+    width: 20px;
+
+    /* Оформление */
     border: 2px solid #7A66CC;
     transform: rotate(90deg);
 }
 
 /* 00:22-02:54 */
 .time {
+    /* Позиционирование */
     position: absolute;
+    top: 694px;
+    left: 1408px;
+
+    /* Блочная модель */
     width: 109px;
     height: 27px;
-    left: 1408px;
-    top: 694px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
     text-align: right;
     white-space: nowrap;
     color: #FFF;
 }
 
 .news1 {
+    /* Позиционирование */
     position: absolute;
+    top: 851px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 350px;
     height: 300px;
-    left: 405px;
-    top: 851px;
 }
 
 .news2 {
+    /* Позиционирование */
     position: absolute;
+    top: 851px;
+    left: 785px;
+
+    /* Блочная модель */
     width: 350px;
     height: 300px;
-    left: 785px;
-    top: 851px;
 }
 
 .news3 {
+    /* Позиционирование */
     position: absolute;
+    top: 851px;
+    left: 1165px;
+
+    /* Блочная модель */
     width: 350px;
     height: 300px;
-    left: 1165px;
-    top: 851px;
 }
 
 .newsrectangle1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1061px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 350px;
     height: 90px;
-    left: 405px;
-    top: 1061px;
 }
 
 .newsrectangle2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1061px;
+    left: 785px;
+
+    /* Блочная модель */
     width: 350px;
     height: 90px;
-    left: 785px;
-    top: 1061px;
 }
 
 .newsrectangle3 {
+    /* Позиционирование */
     position: absolute;
+    top: 1061px;
+    left: 1165px;
+
+    /* Блочная модель */
     width: 350px;
     height: 90px;
-    left: 1165px;
-    top: 1061px;
 }
 
 .text1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1082px;
+    left: 425px;
+
+    /* Блочная модель */
     width: 310px;
     height: 48px;
-    left: 425px;
-    top: 1082px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .text2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1082px;
+    left: 805px;
+
+    /* Блочная модель */
     width: 310px;
     height: 42px;
-    left: 805px;
-    top: 1082px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .text3 {
+    /* Позиционирование */
     position: absolute;
+    top: 1082px;
+    left: 1185px;
+
+    /* Блочная модель */
     width: 310px;
     height: 48px;
-    left: 1185px;
-    top: 1082px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 .aboutrectangle1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1360px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 405px;
-    top: 1360px;
 }
 
 .aboutrectangle2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1370px;
+    left: 409px;
+
+    /* Блочная модель */
     width: 4px;
     height: 13px;
-    left: 409px;
-    top: 1370px;
 }
 
 .aboutrectangle3 {
+    /* Позиционирование */
     position: absolute;
+    top: 1357px;
+    left: 413px;
+
+    /* Блочная модель */
     width: 4px;
     height: 26px;
-    left: 413px;
-    top: 1357px;
 }
 
 .aboutrectangle4 {
-
+    /* Позиционирование */
     position: absolute;
+    top: 1364px;
+    left: 417px;
+
+    /* Блочная модель */
     width: 4px;
     height: 19px;
-    left: 417px;
-    top: 1364px;
 }
 
 .aboutrectangle5 {
+    /* Позиционирование */
     position: absolute;
+    top: 1352px;
+    left: 421px;
+
+    /* Блочная модель */
     width: 4px;
     height: 31px;
-    left: 421px;
-    top: 1352px;
 }
 
 .aboutrectangle6 {
+    /* Позиционирование */
     position: absolute;
+    top: 1357px;
+    left: 425px;
+
+    /* Блочная модель */
     width: 4px;
     height: 26px;
-    left: 425px;
-    top: 1357px;
 }
 
 .aboutrectangle7 {
+    /* Позиционирование */
     position: absolute;
+    top: 1362px;
+    left: 429px;
+
+    /* Блочная модель */
     width: 4px;
     height: 21px;
-    left: 429px;
-    top: 1362px;
 }
 
 .aboutrectangle8 {
+    /* Позиционирование */
     position: absolute;
+    top: 1355px;
+    left: 433px;
+
+    /* Блочная модель */
     width: 4px;
     height: 28px;
-    left: 433px;
-    top: 1355px;
 }
 
 .aboutrectangle9 {
+    /* Позиционирование */
     position: absolute;
+    top: 1369px;
+    left: 437px;
+
+    /* Блочная модель */
     width: 4px;
     height: 14px;
-    left: 437px;
-    top: 1369px;
 }
 
 .aboutrectangle10 {
+    /* Позиционирование */
     position: absolute;
+    top: 1364px;
+    left: 441px;
+
+    /* Блочная модель */
     width: 4px;
     height: 19px;
-    left: 441px;
-    top: 1364px;
 }
 
 .aboutrectangle11 {
+    /* Позиционирование */
     position: absolute;
+    top: 1360px;
+    left: 445px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 445px;
-    top: 1360px;
 }
 
 .aboutrectangle12 {
+    /* Позиционирование */
     position: absolute;
+    top: 1356px;
+    left: 449px;
+
+    /* Блочная модель */
     width: 4px;
     height: 27px;
-    left: 449px;
-    top: 1356px;
 }
 
 .aboutrectangle13 {
+    /* Позиционирование */
     position: absolute;
+    top: 1371px;
+    left: 453px;
+
+    /* Блочная модель */
     width: 4px;
     height: 12px;
-    left: 453px;
-    top: 1371px;
 }
 
 .aboutrectangle14 {
+    /* Позиционирование */
     position: absolute;
+    top: 1376px;
+    left: 457px;
+
+    /* Блочная модель */
     width: 4px;
     height: 7px;
-    left: 457px;
-    top: 1376px;
 }
 
 .aboutrectangle15 {
+    /* Позиционирование */
     position: absolute;
+    top: 1354px;
+    left: 461px;
+
+    /* Блочная модель */
     width: 4px;
     height: 29px;
-    left: 461px;
-    top: 1354px;
 }
 
 .aboutrectangle16 {
+    /* Позиционирование */
     position: absolute;
+    top: 1360px;
+    left: 465px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 465px;
-    top: 1360px;
 }
 
 .companyname {
+    /* Позиционирование */
     position: absolute;
+    top: 1330px;
+    left: 499px;
+
+    /* Блочная модель */
     width: 310px;
     height: 72px;
-    left: 499px;
-    top: 1330px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    font-weight: 700;
     color: #FFF;
 }
 
 .aboutcompany {
+    /* Позиционирование */
     position: absolute;
+    top: 1462px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 540px;
     height: 312px;
-    left: 405px;
-    top: 1462px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
     color: #FFF;
+
+    /* Оформление */
     opacity: 0.7;
 }
 
 .aboutpic1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1457px;
+    left: 1165px;
+
+    /* Блочная модель */
     width: 350px;
     height: 400px;
-    left: 1165px;
-    top: 1457px;
 }
 
 .aboutpic2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1391px;
+    left: 1070px;
+
+    /* Блочная модель */
     width: 350px;
     height: 400px;
-    left: 1070px;
-    top: 1391px;
 }
 
 .itemdecor1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1834px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 30px;
     height: 30px;
-    left: 405px;
-    top: 1834px;
 }
 
 .itemdecor2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1834px;
+    left: 690px;
+
+    /* Блочная модель */
     width: 30px;
     height: 30px;
-    left: 690px;
-    top: 1834px;
 }
 
 .itemdecor3 {
+    /* Позиционирование */
     position: absolute;
+    top: 1894px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 30px;
     height: 30px;
-    left: 405px;
-    top: 1894px;
 }
 
 .itemdecor4 {
+    /* Позиционирование */
     position: absolute;
+    top: 1894px;
+    left: 690px;
+
+    /* Блочная модель */
     width: 30px;
     height: 30px;
-    left: 690px;
-    top: 1894px;
 }
 
 .abouttext1 {
+    /* Позиционирование */
     position: absolute;
+    top: 1835px;
+    left: 455px;
+
+    /* Блочная модель */
     width: 195px;
     height: 27px;
-    left: 455px;
-    top: 1835px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
 }
 
 .abouttext2 {
+    /* Позиционирование */
     position: absolute;
+    top: 1835px;
+    left: 740px;
+
+    /* Блочная модель */
     width: 146px;
     height: 27px;
-    left: 740px;
-    top: 1835px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
 }
 
 .abouttext3 {
+    /* Позиционирование */
     position: absolute;
+    top: 1895px;
+    left: 455px;
+
+    /* Блочная модель */
     width: 183px;
     height: 27px;
-    left: 455px;
-    top: 1895px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
 }
 
 .abouttext4 {
+    /* Позиционирование */
     position: absolute;
+    top: 1895px;
+    left: 740px;
+
+    /* Блочная модель */
     width: 198px;
     height: 27px;
-    left: 740px;
-    top: 1895px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
 }
 
 .textframe {
+    /* Позиционирование */
     position: absolute;
+    top: 2160px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 1110px;
     height: 313px;
-    left: 405px;
-    top: 2160px;
 }
 
 .quotespic {
+    /* Позиционирование */
     position: absolute;
+    top: 2214px;
+    left: 485px;
+
+    /* Блочная модель */
     width: 103px;
     height: 92px;
-    left: 485px;
-    top: 2214px;
 }
 
 .text4 {
+    /* Позиционирование */
     position: absolute;
+    top: 2210px;
+    left: 485px;
+
+    /* Блочная модель */
     width: 520px;
     height: 136px;
-    left: 485px;
-    top: 2210px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .line4 {
+    /* Позиционирование */
     position: absolute;
-    width: 520px;
-    left: 485px;
     top: 2371px;
+    left: 485px;
+
+    /* Блочная модель */
+    width: 520px;
+
+    /* Оформление */
     opacity: 0.6;
 }
 
 .website {
+    /* Позиционирование */
     position: absolute;
+    top: 2396px;
+    left: 485px;
+
+    /* Блочная модель */
     width: 126px;
     height: 27px;
-    left: 485px;
-    top: 2396px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #7A66CC;
+    font-weight: 700;
     text-decoration: none;
+    color: #7A66CC;
+}
+
+a .website:hover {
+    /* Типографика */
+    text-decoration: underline;
+    color: #7A66CC;
 }
 
 .textpic {
+    /* Позиционирование */
     position: absolute;
+    top: 2075px;
+    left: 1065px;
+
+    /* Блочная модель */
     width: 370px;
     height: 483px;
-    left: 1065px;
-    top: 2075px;
 }
 
 .trackscircle1 {
+    /* Позиционирование */
     position: absolute;
+    top: 2775px;
+    left: 405px;
+
+    /* Блочная модель */
     width: 510px;
     height: 510px;
-    left: 405px;
-    top: 2775px;
+
+    /* Оформление */
     opacity: 0.3;
 }
 
 .trackscircle2 {
+    /* Позиционирование */
     position: absolute;
+    top: 2793.89px;
+    left: 423.89px;
+
+    /* Блочная модель */
     width: 472.22px;
     height: 472.22px;
-    left: 423.89px;
-    top: 2793.89px;
+
+    /* Оформление */
     opacity: 0.6;
 }
 
 .trackscircle3 {
+    /* Позиционирование */
     position: absolute;
+    top: 2813.72px;
+    left: 443.72px;
+
+    /* Блочная модель */
     width: 434.44px;
     height: 434.44px;
-    left: 443.72px;
-    top: 2813.72px;
 }
 
 .tracksrectangle1 {
+    /* Позиционирование */
     position: absolute;
+    top: 2768px;
+    left: 975px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 975px;
-    top: 2768px;
 }
 
 .tracksrectangle2 {
+    /* Позиционирование */
     position: absolute;
+    top: 2778px;
+    left: 979px;
+
+    /* Блочная модель */
     width: 4px;
     height: 13px;
-    left: 979px;
-    top: 2778px;
 }
 
 .tracksrectangle3 {
+    /* Позиционирование */
     position: absolute;
+    top: 2765px;
+    left: 983px;
+
+    /* Блочная модель */
     width: 4px;
     height: 26px;
-    left: 983px;
-    top: 2765px;
 }
 
 .tracksrectangle4 {
+    /* Позиционирование */
     position: absolute;
+    top: 2772px;
+    left: 987px;
+
+    /* Блочная модель */
     width: 4px;
     height: 19px;
-    left: 987px;
-    top: 2772px;
 }
 
 .tracksrectangle5 {
+    /* Позиционирование */
     position: absolute;
+    top: 2760px;
+    left: 991px;
+
+    /* Блочная модель */
     width: 4px;
     height: 31px;
-    left: 991px;
-    top: 2760px;
 }
 
 .tracksrectangle6 {
+    /* Позиционирование */
     position: absolute;
+    top: 2765px;
+    left: 995px;
+
+    /* Блочная модель */
     width: 4px;
     height: 26px;
-    left: 995px;
-    top: 2765px;
 }
 
 .tracksrectangle7 {
+    /* Позиционирование */
     position: absolute;
+    top: 2770px;
+    left: 999px;
+
+    /* Блочная модель */
     width: 4px;
     height: 21px;
-    left: 999px;
-    top: 2770px;
 }
 
 .tracksrectangle8 {
+    /* Позиционирование */
     position: absolute;
+    top: 2763px;
+    left: 1003px;
+
+    /* Блочная модель */
     width: 4px;
     height: 28px;
-    left: 1003px;
-    top: 2763px;
 }
 
 .tracksrectangle9 {
+    /* Позиционирование */
     position: absolute;
+    top: 2777px;
+    left: 1007px;
+
+    /* Блочная модель */
     width: 4px;
     height: 14px;
-    left: 1007px;
-    top: 2777px;
 }
 
 .tracksrectangle10 {
+    /* Позиционирование */
     position: absolute;
+    top: 2772px;
+    left: 1011px;
+
+    /* Блочная модель */
     width: 4px;
     height: 19px;
-    left: 1011px;
-    top: 2772px;
 }
 
 .tracksrectangle11 {
+    /* Позиционирование */
     position: absolute;
+    top: 2768px;
+    left: 1015px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 1015px;
-    top: 2768px;
 }
 
 .tracksrectangle12 {
+    /* Позиционирование */
     position: absolute;
+    top: 2764px;
+    left: 1019px;
+
+    /* Блочная модель */
     width: 4px;
     height: 27px;
-    left: 1019px;
-    top: 2764px;
 }
 
 .tracksrectangle13 {
+    /* Позиционирование */
     position: absolute;
+    top: 2779px;
+    left: 1023px;
+
+    /* Блочная модель */
     width: 4px;
     height: 12px;
-    left: 1023px;
-    top: 2779px;
 }
 
 .tracksrectangle14 {
+    /* Позиционирование */
     position: absolute;
+    top: 2784px;
+    left: 1027px;
+
+    /* Блочная модель */
     width: 4px;
     height: 7px;
-    left: 1027px;
-    top: 2784px;
 }
 
 .tracksrectangle15 {
+    /* Позиционирование */
     position: absolute;
+    top: 2762px;
+    left: 1031px;
+
+    /* Блочная модель */
     width: 4px;
     height: 29px;
-    left: 1031px;
-    top: 2762px;
 }
 
 .tracksrectangle16 {
+    /* Позиционирование */
     position: absolute;
+    top: 2768px;
+    left: 1035px;
+
+    /* Блочная модель */
     width: 4px;
     height: 23px;
-    left: 1035px;
-    top: 2768px;
 }
 
 .lasttracks {
+    /* Позиционирование */
     position: absolute;
+    top: 2738px;
+    left: 1069px;
+
+    /* Блочная модель */
     width: 270px;
     height: 72px;
-    left: 1069px;
-    top: 2738px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 48px;
     line-height: 72px;
-    /* текст в одну строку */
+    font-weight: 700;
     white-space: nowrap;
 }
 
 .tracksplay {
+    /* Позиционирование */
     position: absolute;
-    left: 997px;
     top: 2872px;
+    left: 976px;
 }
 
 .tracksline1 {
+    /* Позиционирование */
     position: absolute;
-    width: 317px;
-    left: 1042px;
     top: 2874px;
+    left: 1042px;
+
+    /* Блочная модель */
+    width: 317px;
+
+    /* Оформление */
     border: 2px solid #FFF;
 }
 
 .tracksline2 {
+    /* Позиционирование */
     position: absolute;
-    width: 70px;
-    left: 1042px;
     top: 2874px;
+    left: 1042px;
+
+    /* Блочная модель */
+    width: 70px;
+
+    /* Оформление */
     border: 2px solid #7A66CC;
 }
 
 .tracksline3 {
-
+    /* Позиционирование */
     position: absolute;
-    width: 20px;
-    left: 1102px;
     top: 2874px;
+    left: 1102px;
+
+    /* Блочная модель */
+    width: 20px;
+
+    /* Оформление */
     border: 2px solid #7A66CC;
     transform: rotate(90deg);
 }
 
 /* 00:47-03:30 */
 .trackstime {
+    /* Позиционирование */
     position: absolute;
+    top: 2870px;
+    left: 1406px;
+
+    /* Блочная модель */
     width: 109px;
     height: 27px;
-    left: 1406px;
-    top: 2870px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
     text-align: right;
     color: #FFF;
 }
 
 .tracknumber01 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 2952px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .tracknumber02 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 2999px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .tracknumber03 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3046px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .tracknumber04 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3093px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .tracknumber05 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3140px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .tracknumber06 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3214px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 700;
 }
 
 .track01 {
+    /* Позиционирование */
     position: absolute;
+    top: 2944px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 27px;
-    left: 1010px;
-    top: 2944px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
     color: #7A66CC;
 }
 
 .track02 {
+    /* Позиционирование */
     position: absolute;
+    top: 2992px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 27px;
-    left: 1010px;
-    top: 2992px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .track03 {
+    /* Позиционирование */
     position: absolute;
+    top: 3039px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 27px;
-    left: 1010px;
-    top: 3039px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .track04 {
+    /* Позиционирование */
     position: absolute;
+    top: 3086px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 27px;
-    left: 1010px;
-    top: 3086px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .track05 {
+    /* Позиционирование */
     position: absolute;
+    top: 3133px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 54px;
-    left: 1010px;
-    top: 3133px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .track06 {
+    /* Позиционирование */
     position: absolute;
+    top: 3207px;
+    left: 1010px;
+
+    /* Блочная модель */
     width: 505px;
     height: 27px;
-    left: 1010px;
-    top: 3207px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
 }
 
 .follow {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3286px;
+    left: 975px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    font-weight: 600;
 }
 
 .spotifylogo {
+    /* Позиционирование */
     position: absolute;
-    left: 1144px;
     top: 3280px;
+    left: 1144px;
 }
 
 .spotifytextlogo {
+    /* Позиционирование */
     position: absolute;
-    left: 1184px;
     top: 3290px;
+    left: 1184px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 600;
 }
 
 .applelogo {
+    /* Позиционирование */
     position: absolute;
-    left: 1264px;
     top: 3280px;
+    left: 1264px;
 }
 
 .appletextlogo {
+    /* Позиционирование */
     position: absolute;
-    left: 1304px;
     top: 3290px;
+    left: 1304px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 14px;
     line-height: 21px;
+    font-weight: 600;
 }
 
 .gallerypic1 {
+    /* Позиционирование */
     position: absolute;
-    left: 405px;
     top: 3502px;
+    left: 405px;
 }
 
 .gallerypic2 {
+    /* Позиционирование */
     position: absolute;
-    left: 690px;
     top: 3502px;
+    left: 690px;
 }
 
 .gallerypic3 {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 3502px;
+    left: 975px;
 }
 
 .gallerypic4 {
+    /* Позиционирование */
     position: absolute;
-    left: 690px;
     top: 3767px;
+    left: 690px;
 }
 
 .gallerypic5 {
+    /* Позиционирование */
     position: absolute;
-    left: 1260px;
     top: 3502px;
+    left: 1260px;
 }
 
 .gallerytext {
+    /* Позиционирование */
     position: absolute;
+    top: 3867px;
+    left: 802px;
+
+    /* Блочная модель */
     width: 316px;
     height: 36px;
-    left: 802px;
-    top: 3867px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: bold;
     font-size: 24px;
     line-height: 36px;
+    font-weight: 700;
     text-align: center;
     color: #7A66CC;
 }
 
 .eventspostframe1 {
+    /* Позиционирование */
     position: absolute;
-    left: 405px;
     top: 4182px;
+    left: 405px;
+
+    /* Оформление */
     background: #2F2B2B;
     border-radius: 30px 0px;
 }
 
 .eventspostframe2 {
+    /* Позиционирование */
     position: absolute;
-    left: 785px;
     top: 4182px;
+    left: 785px;
+
+    /* Оформление */
     background: #2F2B2B;
     border-radius: 30px 0px;
 }
 
 .eventspostframe3 {
+    /* Позиционирование */
     position: absolute;
-    left: 1165px;
     top: 4182px;
+    left: 1165px;
+
+    /* Оформление */
     background: #2F2B2B;
     border-radius: 30px 0px;
 }
 
 .eventspic1 {
+    /* Позиционирование */
     position: absolute;
-    left: 405px;
     top: 4182px;
+    left: 405px;
 }
 
 .eventspic2 {
+    /* Позиционирование */
     position: absolute;
-    left: 785px;
     top: 4182px;
+    left: 785px;
 }
 
 .eventspic3 {
+    /* Позиционирование */
     position: absolute;
-    left: 1165px;
     top: 4182px;
+    left: 1165px;
 }
 
 .eventsarrowframe1 {
+    /* Позиционирование */
     position: absolute;
-    left: 325px;
     top: 4389px;
+    left: 325px;
 }
 
 .eventsarrowframe2 {
+    /* Позиционирование */
     position: absolute;
-    left: 1555px;
     top: 4389px;
+    left: 1555px;
 }
 
 .eventleftarrow {
+    /* Позиционирование */
     position: absolute;
-    left: 335px;
     top: 4415px;
+    left: 335px;
 }
 
 .eventsrightarrow {
+    /* Позиционирование */
     position: absolute;
-    left: 1565px;
     top: 4415px;
+    left: 1565px;
 }
 
 .eventstextframe1 {
+    /* Позиционирование */
     position: absolute;
-    left: 575px;
     top: 4595px;
+    left: 575px;
 }
 
 .eventstextframe2 {
+    /* Позиционирование */
     position: absolute;
-    left: 955px;
     top: 4595px;
+    left: 955px;
 }
 
 .eventstextframe3 {
+    /* Позиционирование */
     position: absolute;
-    left: 1335px;
     top: 4595px;
+    left: 1335px;
 }
 
 .eventspost1text1 {
+    /* Позиционирование */
     position: absolute;
+    top: 4492px;
+    left: 440px;
+
+    /* Блочная модель */
     width: 120px;
     height: 27px;
-    left: 440px;
-    top: 4492px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 700;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost1text2 {
+    /* Позиционирование */
     position: absolute;
+    top: 4539px;
+    left: 440px;
+
+    /* Блочная модель */
     width: 260px;
     height: 26px;
-    left: 440px;
-    top: 4539px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
 }
 
 .eventspost1text3 {
+    /* Позиционирование */
     position: absolute;
+    top: 4611px;
+    left: 445px;
+
+    /* Блочная модель */
     width: 94px;
     height: 24px;
-    left: 445px;
-    top: 4611px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost1text4 {
+    /* Позиционирование */
     position: absolute;
+    top: 4613px;
+    left: 627px;
+
+    /* Блочная модель */
     width: 66px;
     height: 24px;
-    left: 627px;
-    top: 4613px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .eventspost2text1 {
+    /* Позиционирование */
     position: absolute;
+    top: 4492px;
+    left: 820px;
+
+    /* Блочная модель */
     width: 81px;
     height: 27px;
-    left: 820px;
-    top: 4492px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 700;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost2text2 {
+    /* Позиционирование */
     position: absolute;
+    top: 4539px;
+    left: 820px;
+
+    /* Блочная модель */
     width: 260px;
     height: 26px;
-    left: 820px;
-    top: 4539px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
 }
 
 .eventspost2text3 {
+    /* Позиционирование */
     position: absolute;
+    top: 4611px;
+    left: 825px;
+
+    /* Блочная модель */
     width: 91px;
     height: 24px;
-    left: 825px;
-    top: 4611px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost2text4 {
+    /* Позиционирование */
     position: absolute;
+    top: 4613px;
+    left: 1007px;
+
+    /* Блочная модель */
     width: 66px;
     height: 24px;
-    left: 1007px;
-    top: 4613px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
-
 .eventspost3text1 {
+    /* Позиционирование */
     position: absolute;
+    top: 4492px;
+    left: 1200px;
+
+    /* Блочная модель */
     width: 81px;
     height: 27px;
-    left: 1200px;
-    top: 4492px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 700;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost3text2 {
+    /* Позиционирование */
     position: absolute;
+    top: 4539px;
+    left: 1200px;
+
+    /* Блочная модель */
     width: 260px;
     height: 26px;
-    left: 1200px;
-    top: 4539px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 500;
 }
 
 .eventspost3text3 {
+    /* Позиционирование */
     position: absolute;
+    top: 4611px;
+    left: 1205px;
+
+    /* Блочная модель */
     width: 87px;
     height: 24px;
-    left: 1205px;
-    top: 4611px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
+
+    /* Оформление */
     opacity: 0.5;
 }
 
 .eventspost3text4 {
+    /* Позиционирование */
     position: absolute;
+    top: 4613px;
+    left: 1387px;
+
+    /* Блочная модель */
     width: 66px;
     height: 24px;
-    left: 1387px;
-    top: 4613px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .footerlogo1 {
+    /* Позиционирование */
     position: absolute;
-    left: 848px;
     top: 4835px;
+    left: 848px;
 }
 
 .footerlogo2 {
+    /* Позиционирование */
     position: absolute;
-    left: 928px;
     top: 4847px;
+    left: 928px;
 }
 
 .connection {
+    /* Позиционирование */
     position: absolute;
+    top: 4955px;
+    left: 693px;
+
+    /* Блочная модель */
     width: 199px;
     height: 54px;
-    left: 693px;
-    top: 4955px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 600;
     text-align: right;
     text-transform: uppercase;
 }
 
-.contact {
+#contact {
+    /* Позиционирование */
     position: absolute;
+    top: 4955px;
+    left: 922px;
+
+    /* Блочная модель */
     width: 304px;
     height: 54px;
-    left: 922px;
-    top: 4955px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 400;
     text-transform: uppercase;
+}
+
+p .contactemail {
+    /* Типографика */
+    text-decoration: none;
+    color: #FFF;
+}
+
+p .contactemail:active {
+    /* Типографика */
+    color: #7A66CC;
 }
 
 .footercircle1apple {
+    /* Позиционирование */
     position: absolute;
-    left: 705px;
     top: 5069px;
+    left: 705px;
 }
 
 .footercircle2apple {
+    /* Позиционирование */
     position: absolute;
-    left: 713px;
     top: 5077px;
+    left: 713px;
 }
 
 .footerlogoapple {
+    /* Позиционирование */
     position: absolute;
-    left: 725.23px;
     top: 5086px;
+    left: 725.23px;
 }
 
 .footercircle1spotify {
+    /* Позиционирование */
     position: absolute;
-    left: 795px;
     top: 5069px;
+    left: 795px;
 }
 
 .footercircle2spotify {
+    /* Позиционирование */
     position: absolute;
-    left: 803px;
     top: 5077px;
+    left: 803px;
 }
 
 .footerlogospotify {
+    /* Позиционирование */
     position: absolute;
-    left: 813px;
     top: 5087px;
+    left: 813px;
 }
 
 .footercircle1instagram {
+    /* Позиционирование */
     position: absolute;
-    left: 885px;
     top: 5069px;
+    left: 885px;
 }
 
 .footercircle2instagram {
+    /* Позиционирование */
     position: absolute;
-    left: 893px;
     top: 5077px;
+    left: 893px;
 }
 
 .footerlogoinstagram {
+    /* Позиционирование */
     position: absolute;
-    left: 903px;
     top: 5087px;
+    left: 903px;
 }
 
 .footercircle1youtube {
+    /* Позиционирование */
     position: absolute;
-    left: 975px;
     top: 5069px;
+    left: 975px;
 }
 
 .footercircle2youtube {
+    /* Позиционирование */
     position: absolute;
-    left: 983px;
     top: 5077px;
+    left: 983px;
 }
 
 .footerlogoyoutube {
+    /* Позиционирование */
     position: absolute;
-    left: 993px;
     top: 5090.61px;
+    left: 993px;
 }
 
 .footercircle1tweeter {
+    /* Позиционирование */
     position: absolute;
-    left: 1065px;
     top: 5069px;
+    left: 1065px;
 }
 
 .footercircle2tweeter {
+    /* Позиционирование */
     position: absolute;
-    left: 1073px;
     top: 5077px;
+    left: 1073px;
 }
 
 .footerlogotweeter {
+    /* Позиционирование */
     position: absolute;
-    left: 1083px;
     top: 5089.25px;
+    left: 1083px;
 }
 
 .footercircle1facebook {
+    /* Позиционирование */
     position: absolute;
-    left: 1155px;
     top: 5069px;
+    left: 1155px;
 }
 
 .footercircle2facebook {
+    /* Позиционирование */
     position: absolute;
-    left: 1163px;
     top: 5077px;
+    left: 1163px;
 }
 
 .footerlogofacebook {
+    /* Позиционирование */
     position: absolute;
-    left: 1173px;
     top: 5087px;
+    left: 1173px;
 }
 
 .copyright {
+    /* Позиционирование */
     position: absolute;
+    top: 5229px;
+    left: 877px;
+
+    /* Блочная модель */
     width: 166px;
     height: 20px;
-    left: 877px;
-    top: 5229px;
+    padding-bottom: 45px;
+
+    /* Типографика */
     font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 19px;
+    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+
+    /* Оформление */
     opacity: 0.5;
-    padding-bottom: 45px;
 }
