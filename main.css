@@ -75,6 +75,10 @@ ul .menu:link {
     text-decoration: none;
 }
 
+.menu li a:hover {
+    text-decoration: underline;
+}
+
 .menu li {
     /* Блочная модель */
     margin-right: 56px;
@@ -726,10 +730,10 @@ p {
     color: #7A66CC;
 }
 
-a .website:hover {
+.website:focus {
     /* Типографика */
     text-decoration: underline;
-    color: #7A66CC;
+    color: #FFF;
 }
 
 .textpic {
