@@ -62,11 +62,6 @@ header a {
     height: 27px;
 }
 
-ul .menu:link {
-    /* Типографика */
-    color: #7A66CC;
-}
-
 .menu li a {
     /* Типографика */
     font-size: 18px;
